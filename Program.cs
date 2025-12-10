@@ -1,10 +1,10 @@
-﻿using ConsoleApp1.Array3;    
+﻿using Learning.Array4.Task;
 
 internal class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        var task = new BootstrapArray3();  
-        task.Run();                       
+        var task = new BootstrapArray4();
+        task.Run();
     }
 }
